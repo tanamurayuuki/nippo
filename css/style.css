@@ -165,7 +165,7 @@ header {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 320px;
 }
 
 .article-card:hover {
@@ -282,8 +282,9 @@ header {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    height: 2.8rem;
-    min-height: 2.8rem;
+    text-overflow: ellipsis;
+    height: 2.52rem;
+    min-height: 2.52rem;
 }
 
 .article-meta {
