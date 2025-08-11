@@ -284,7 +284,8 @@ header {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    flex-grow: 1;
+    height: 2.8rem;
+    min-height: 2.8rem;
 }
 
 .article-meta {
