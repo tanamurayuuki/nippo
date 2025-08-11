@@ -269,8 +269,6 @@ header {
 
 .article-content {
     padding: 16px;
-    display: flex;
-    flex-direction: column;
     flex-grow: 1;
 }
 
@@ -374,7 +372,7 @@ header {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .articles-grid {
         grid-template-columns: repeat(2, 1fr);
     }
